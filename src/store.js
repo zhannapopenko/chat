@@ -2,7 +2,24 @@ import { applyMiddleware, createStore } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
 
 const initialState = {
-  messages: [],
+  messages: [
+    {
+      value: "Hi!",
+      id: 1,
+      currentTime: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    },
+    {
+      value: "How are you?",
+      id: 2,
+      currentTime: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    },
+  ],
 };
 
 const ADD_MESSAGE = "ADD_MESSAGE";

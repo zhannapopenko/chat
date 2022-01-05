@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import { addMessageActoinCreator, deleteMessageActionCreator } from "./store";
+import iconSend from "./Icon/send-icon.svg";
 
 function App() {
   const dispatch = useDispatch();
@@ -13,8 +14,13 @@ function App() {
     const messageValue = {
       value: inputValue,
       id: Date.now(),
+      currentTime: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
     };
-    dispatch(addMessageActoinCreator(messageValue));
+
+    messageValue.value && dispatch(addMessageActoinCreator(messageValue));
     setInputValue("");
   };
 
@@ -23,27 +29,37 @@ function App() {
   };
 
   return (
-    <>
-      {messages.length ? (
-        <div>
-          {messages.map((message) => (
-            <div onClick={() => deleteMessage(message)} key={message.id}>
-              {message.value}
-            </div>
-          ))}
-        </div>
-      ) : (
-        <div>no messages yet</div>
-      )}
-      <form onSubmit={addMessage}>
-        <input
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-        />
-        <button type="submit">Send</button>
-      </form>
-    </>
+    <main className="main-container">
+      <div className="chat">
+        {messages.length ? (
+          <div className="messages">
+            {messages.map((message) => (
+              <div
+                className="message"
+                onClick={() => deleteMessage(message)}
+                key={message.id}
+              >
+                {message.value}
+                <div className="current-time">{message.currentTime}</div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="no-messages">no messages yet</div>
+        )}
+        <form className="form" onSubmit={addMessage}>
+          <input
+            className="input"
+            type="text"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+          />
+          <button className="button" type="submit">
+            <img src={iconSend} alt="send-icon" className="button-icon" />
+          </button>
+        </form>
+      </div>
+    </main>
   );
 }
 
