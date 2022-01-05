@@ -1,0 +1,11 @@
+{
+  "short_name": "Chat",
+  "name": "Simple chat created using React/Redux",
+  "lang": "en-US",
+  "dir": "rtl",
+  "start_url": ".",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#ffffff",
+  "background_color": "rgb(13, 13, 13)"
+}
