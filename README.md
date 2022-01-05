@@ -1,9 +1,9 @@
 # Simple chat created using React/Redux
 
-[Chat]()
+[Chat](https://zhannapopenko.github.io/chat/)
 ## This app is an example of using Redux to save data (in this example it is a messages).
 
-In this app you can write messages, they will appear in the chat and delete the message by clicking on it.
+In this app you can write messages (they will appear in the chat) and delete messages by clicking on it.
 I created styles based on information from the figma [layout](https://www.figma.com/file/SNq4sYquUbR705Fq8Dp6RO/Test-%2F-Dev-%2F-Stubbs?node-id=0%3A1). 
 There is no adaptive design. The screen width must be 1440px to display the app correctly.
 
