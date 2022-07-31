@@ -1,6 +1,6 @@
 # Simple chat created using React/Redux
 
-[Chat](https://zhannapopenko.github.io/chat/)
+[Demo](https://zhannapopenko.github.io/chat/)
 ## This app is an example of using Redux to save data (in this example it is a messages).
 
 In this app you can write messages (they will appear in the chat) and delete messages by clicking on it.
