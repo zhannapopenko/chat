@@ -4,7 +4,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 const initialState = {
   messages: [
     {
-      value: "Hi!",
+      value: "Hi there! 👋",
       id: 1,
       currentTime: new Date().toLocaleTimeString([], {
         hour: "2-digit",
@@ -12,7 +12,23 @@ const initialState = {
       }),
     },
     {
-      value: "How are you?",
+      value: "This is a simple chat.",
+      id: 2,
+      currentTime: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    },
+    {
+      value: "I've built this app using HTML, CSS, React JS and Redux.",
+      id: 1,
+      currentTime: new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+      }),
+    },
+    {
+      value: "You can write a message or delete a message by clicking on it.",
       id: 2,
       currentTime: new Date().toLocaleTimeString([], {
         hour: "2-digit",

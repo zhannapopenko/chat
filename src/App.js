@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "./App.css";
 import { addMessageActoinCreator, deleteMessageActionCreator } from "./store";
+import "./App.css";
 import iconSend from "./icon/send-icon.svg";
 
 function App() {
