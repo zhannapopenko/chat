@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./App.css";
 import { addMessageActoinCreator, deleteMessageActionCreator } from "./store";
-import iconSend from "./Icon/send-icon.svg";
+import iconSend from "./icon/send-icon.svg";
 
 function App() {
   const dispatch = useDispatch();
@@ -47,15 +47,16 @@ function App() {
         ) : (
           <div className="no-messages">no messages yet</div>
         )}
-        <form className="form" onSubmit={addMessage}>
+      </div>
+      <div className="form-container">
+        <form onSubmit={addMessage}>
           <input
-            className="input"
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
-          <button className="button" type="submit">
-            <img src={iconSend} alt="send-icon" className="button-icon" />
+          <button type="submit">
+            <img src={iconSend} alt="send-icon" />
           </button>
         </form>
       </div>
