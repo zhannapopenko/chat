@@ -16,6 +16,5 @@ In this app you can write messages (they will appear in the chat) and delete mes
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ### To start this app:
 
-### `npm i`
-
-This will install the packages you need.
+#### `npm i` - this will install the packages you need
+#### `npm start` - this will start the project
