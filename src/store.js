@@ -21,7 +21,7 @@ const initialState = {
     },
     {
       value: "I've built this app using HTML, CSS, React JS and Redux.",
-      id: 1,
+      id: 3,
       currentTime: new Date().toLocaleTimeString([], {
         hour: "2-digit",
         minute: "2-digit",
@@ -29,7 +29,7 @@ const initialState = {
     },
     {
       value: "You can write a message or delete a message by clicking on it.",
-      id: 2,
+      id: 4,
       currentTime: new Date().toLocaleTimeString([], {
         hour: "2-digit",
         minute: "2-digit",
