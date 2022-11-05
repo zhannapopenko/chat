@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chat/static/css/main.fa10954b.css",
-    "main.js": "/chat/static/js/main.8babbde2.js",
-    "static/js/787.a4efc433.chunk.js": "/chat/static/js/787.a4efc433.chunk.js",
+    "main.css": "/chat/static/css/main.191f502e.css",
+    "main.js": "/chat/static/js/main.aadd8ba5.js",
+    "static/js/787.35cea4b2.chunk.js": "/chat/static/js/787.35cea4b2.chunk.js",
     "static/media/lucien-regular.ttf": "/chat/static/media/lucien-regular.791c30966aa31bf6b25e.ttf",
     "static/media/send-icon.svg": "/chat/static/media/send-icon.e887da3574cfa52be50ad07984f82587.svg",
     "index.html": "/chat/index.html",
-    "main.fa10954b.css.map": "/chat/static/css/main.fa10954b.css.map",
-    "main.8babbde2.js.map": "/chat/static/js/main.8babbde2.js.map",
-    "787.a4efc433.chunk.js.map": "/chat/static/js/787.a4efc433.chunk.js.map"
+    "main.191f502e.css.map": "/chat/static/css/main.191f502e.css.map",
+    "main.aadd8ba5.js.map": "/chat/static/js/main.aadd8ba5.js.map",
+    "787.35cea4b2.chunk.js.map": "/chat/static/js/787.35cea4b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa10954b.css",
-    "static/js/main.8babbde2.js"
+    "static/css/main.191f502e.css",
+    "static/js/main.aadd8ba5.js"
   ]
 }
