@@ -1,20 +1,19 @@
-# Simple chat created using React/Redux
+# A chat application created using React/Redux.
 
 [Demo](https://zhannapopenko.github.io/chat/)
-## This app is an example of using Redux to save data. In this example it is a messages.
 
-In this app you can write messages (they will appear in the chat) and delete messages by clicking on it.
+This application serves as an illustration of implementing Redux for data management, specifically handling messages. Users can compose messages (which will be displayed in the chat) and delete messages by clicking on them.
 
-### I've built this app using:
+### Technologies Used:
 
 - HTML/CSS
 - React JS
 - Redux
 
-### Getting Started with Create React App
+### Getting Started with Create React App:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-### To start this app:
+### To Start the App:
 
-#### `npm i` - this will install the packages you need
-#### `npm start` - this will start the project
+- Run `npm i` to install the required packages.
+- Execute `npm start` to launch the project.
