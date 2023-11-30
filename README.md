@@ -1,8 +1,8 @@
 # A chat application created using React/Redux.
 
-[Demo](https://zhannapopenko.github.io/chat/)
-
 This application serves as an illustration of implementing Redux for data management, specifically handling messages. Users can compose messages (which will be displayed in the chat) and delete messages by clicking on them.
+
+[Demo](https://zhannapopenko.github.io/chat/)
 
 ### Technologies Used:
 
